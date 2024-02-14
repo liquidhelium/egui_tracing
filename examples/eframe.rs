@@ -9,8 +9,8 @@ fn main() {
         .init();
 
     let options = eframe::NativeOptions {
-        resizable: true,
-        initial_window_size: Some(egui::vec2(800.0, 500.0)),
+        // resizable: true,
+        // initial_window_size: Some(egui::vec2(800.0, 500.0)),
         ..Default::default()
     };
     eframe::run_native(
